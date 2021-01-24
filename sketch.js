@@ -85,6 +85,6 @@ function draw(){
 
 
 function mouseDragged(){
-    Matter.Body.setPosition(ball.body,{x:mouseX,y:mouseY})
-
+    Matter.Body.setPosition(superhero.body,{x:mouseX,y:mouseY})
+    Matter.Body.setStatic(monster.body,false)
 }
